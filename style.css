@@ -1,0 +1,134 @@
+ * {
+  margin: 0;
+  padding: 0;
+ }
+ nav ul {
+  display: flex;
+  list-style-type: none;
+  background-color:black ;
+  height: 55px;
+  color: aliceblue;
+align-items: center;
+ }
+ nav ul li {
+    padding: 0 12px;
+ }
+.brand img{
+width: 55px;
+height: 55px;
+background-size: cover;
+}
+.brand {
+  display: flex;
+  font-weight: bolder;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 0 8px; 
+}
+.container {
+    min-height: 75vh;
+}
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px 0;
+}
+.container{
+
+    min-height: 65vh;
+    background: url("ChatGPT Image Sep 12, 2025, 02_42_05 PM.png") no-repeat center center;
+    background-size: cover;  /* pura area cover karega */
+    display: flex;
+    margin: 23px auto;
+    color: aliceblue;
+    background-color: black;
+}
+
+
+.icons .fa-backward,
+.icons .fa-forward {
+  font-size: 30px;  /* Backward & Forward thode chhote */
+}
+.icons .fa-circle-play {
+  font-size: 50px;  /* Play button bada hoga */
+}
+#myprogressbaar {
+    width: 80vw ;
+    
+}
+.songitem img {
+  width: 50px;   /* image chhoti */
+  height: 50px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-left: 500px;
+  margin-top: 20px;
+  position: sticky;
+}
+body {
+  background-color: rgb(95, 92, 92);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*yeh ha about html ka code*/
+body {
+  background-color: black;  
+  font-family: 'Arial', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  color: #1DB954; /* Spotify green */
+  animation: fadeInDown 2s ease-in-out;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 15px 0;
+  color: #ffffff;
+  animation: fadeInDown 2.5s ease-in-out;
+}
+
+.paragraph {
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  padding: 20p
+}
+
+
+
+.about{
+color: white;              /* text color white */
+  text-decoration: none;     /* underline hata do */
+}
+
